@@ -39,7 +39,6 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'parallel_tests'
   gem 'rspec-mocks'
-  gem 'spring-commands-rspec'
 end
 
 group :development do
