@@ -16,8 +16,8 @@ CREATE TABLE students (
   created_at datetime
  );
 
-a. SELECT COUNT(*) FROM students WHERE parent_id != null
+a. SELECT COUNT(*) FROM students WHERE parent_id != null;
 
-b. SELECT COUNT(*) FROM students INNER JOIN parents ON parents.id = student.parent_id WHERE parents.name = 'Марина'
+b. SELECT COUNT(*) FROM students INNER JOIN parents ON parents.id = student.parent_id WHERE parents.name = 'Марина';
 
-c. SELECT COUNT(*) FROM students WHERE parent_id IS NULL
+c. SELECT COUNT(*) FROM students WHERE parent_id IS NULL;
