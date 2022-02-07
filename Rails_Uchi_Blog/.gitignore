@@ -34,3 +34,10 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+.vscode/
+.env
+.env.development
+*.sql
+/spec/examples.txt
+deprecation_stream
