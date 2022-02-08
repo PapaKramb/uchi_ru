@@ -1,0 +1,13 @@
+<%= form_with model: [@post], local: true do |f| %>
+  <div class="mb-3">
+    <%= f.label :title, class: "form-label" %>
+    <%= f.text_field :title, class: "form-control", id: "exampleInputEmail1" %>
+  </div>
+  <div class="mb-3">
+    <%= f.label :title, class: "form-label" %>
+    <%= f.text_area :title, class: "form-control", id: "exampleInputPassword1" %>
+  </div>
+    <%= f.submit %>
+<% end %>
+<p class="pb-2 border-bottom"></p>
+<%= link_to 'Назад', post_path(@post), class: "btn btn-info" %>
