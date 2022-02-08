@@ -1,5 +1,5 @@
 example_id                                    | status  | run_time        |
 --------------------------------------------- | ------- | --------------- |
-./spec/models/user_spec.rb[1:1]               | pending | 0.00002 seconds |
-./spec/requests/home_spec.rb[1:1:1]           | passed  | 0.10922 seconds |
+./spec/models/post_spec.rb[1:1]               | passed  | 0.74398 seconds |
+./spec/models/user_spec.rb[1:1]               | passed  | 0.0372 seconds  |
 ./spec/views/home/index.html.erb_spec.rb[1:1] | pending | 0.00008 seconds |
