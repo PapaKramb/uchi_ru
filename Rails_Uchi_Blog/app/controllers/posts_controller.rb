@@ -8,7 +8,11 @@ class PostsController < ApplicationController
   def show;end
 
   def new
-    @post = Post.new
+    if user_signed_in?
+      @post = Post.new
+    else
+      redirect_to new_user_session_path
+    end
   end
 
   def create

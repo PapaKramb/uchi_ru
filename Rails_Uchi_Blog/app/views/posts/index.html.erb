@@ -1,5 +1,7 @@
 <h2 class="pb-2 border-bottom">Статьи</h2>
-<%= link_to 'Добавить', new_post_path, class: "btn btn-info" %>
+<% if user_signed_in? %>
+  <%= link_to 'Добавить', new_post_path, class: "btn btn-info" %>
+<% end %>
 <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
 <% @posts.each do |post| %>
   <div class="feature col">
