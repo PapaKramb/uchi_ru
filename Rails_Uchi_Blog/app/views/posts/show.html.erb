@@ -1,0 +1,18 @@
+<div class="col-lg-8 mx-auto p-3 py-md-5">
+  <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+    <span class="fs-4"><h2><%= @post.title %></h2></span>
+  </header>
+
+  <main>
+    <p class="fs-5 col-md-8"><%= @post.body %></p>
+
+    <div class="mb-5">
+      <%= link_to 'Редактировать', edit_post_path, class: "btn btn-success" %>
+      <%= link_to 'Удалить', post_path(@post), method: :delete, class: "btn btn-danger" %>
+      <%= link_to 'Назад', posts_path, class: "btn btn-info" %>
+    </div>
+
+    <p class="pb-2 border-bottom"></p>
+    
+  </main>
+</div>
