@@ -10,7 +10,7 @@
 
 -- Решение:
 
-CREATE TABLE students (
+CREATE TABLE parents ( -- поторопился, была таблица students, исправил
   id int,
   name varchar,
   created_at datetime
